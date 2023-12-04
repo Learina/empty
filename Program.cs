@@ -2,9 +2,18 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+
+            Console.Write("Введіть число х: ");
+            int x =Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введіть число у: ");
+            int y = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(x + " + " + y + " = " + (x+y));
+
+            Console.ReadKey();
+
         }
     }
 }
